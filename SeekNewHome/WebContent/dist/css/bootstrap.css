@@ -4347,11 +4347,13 @@ a.list-group-item.active > .badge,
 .jumbotron {
   padding: 30px;
   margin-bottom: 30px;
+  margin-top: 50px;
   font-size: 21px;
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
   background-color: #eeeeee;
+  background-image: url(../img/banner.jpg)
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4359,6 +4361,7 @@ a.list-group-item.active > .badge,
   color: inherit;
 }
 .jumbotron p {
+  
   line-height: 1.4;
 }
 .container .jumbotron {
@@ -4366,7 +4369,12 @@ a.list-group-item.active > .badge,
 }
 .jumbotron .container {
   max-width: 100%;
+  min-height: 400px
 }
+.jumbotron .container .jumbotron-text {
+  margin-top: 80px
+}
+
 @media screen and (min-width: 768px) {
   .jumbotron {
     padding-top: 48px;
