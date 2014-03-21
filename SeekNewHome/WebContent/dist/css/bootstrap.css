@@ -4382,9 +4382,17 @@ a.list-group-item.active > .badge,
   
   line-height: 1.4;
 }
+.seekContent {
+  font-family: Bariol-light
+}
+
 .container .jumbotron {
   border-radius: 6px;
 }
+.container seekcontent {
+  font-family: Bariol
+}
+
 .jumbotron .container {
   max-width: 100%;
   min-height: 400px
