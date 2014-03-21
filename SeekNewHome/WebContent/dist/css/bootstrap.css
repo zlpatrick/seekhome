@@ -2280,6 +2280,14 @@ input[type="button"].btn-block {
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
+@font-face {
+  font-family: 'Bariol';
+  src: url('../fonts/Bariol_Regular.otf');
+}
+@font-face {
+  font-family: 'Bariol-light';
+  src: url('../fonts/Bariol_Light.otf');
+}
 .glyphicon {
   position: relative;
   top: 1px;
@@ -4359,6 +4367,16 @@ a.list-group-item.active > .badge,
 .jumbotron .h1 {
   line-height: 1;
   color: inherit;
+  margin-left: 50px;
+  font-family: Bariol-light
+}
+.jumbotron h2,
+.jumbotron .h2 {
+  line-height: 1;
+  color: inherit;
+  margin-left: 50px;
+  font-size: 32pt;
+  font-family: Bariol-light
 }
 .jumbotron p {
   
