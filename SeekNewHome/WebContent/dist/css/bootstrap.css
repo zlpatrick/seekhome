@@ -2029,6 +2029,8 @@ fieldset[disabled] .btn-primary.active {
   color: #ffffff;
   background-color: #f0ad4e;
   border-color: #eea236;
+  height: 50px;
+  width: 100px
 }
 .btn-warning:hover,
 .btn-warning:focus,
@@ -2938,7 +2940,7 @@ input[type="button"].btn-block {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box;
 }
-.dropdown-menu.pull-right {
+.dropdown-menu .pull-right {
   right: 0;
   left: auto;
 }
@@ -4360,28 +4362,65 @@ a.list-group-item.active > .badge,
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background-color: #eeeeee;
   background-image: url(../img/banner.jpg)
 }
 .jumbotron h1,
 .jumbotron .h1 {
   line-height: 1;
   color: inherit;
-  margin-left: 50px;
+ 
   font-family: Bariol-light
 }
 .jumbotron h2,
 .jumbotron .h2 {
   line-height: 1;
   color: inherit;
-  margin-left: 50px;
+  margin-left:30px;
   font-size: 32pt;
   font-family: Bariol-light
 }
+
+.jumbotron .jumbotron-search {
+  margin-top:100px;
+  height: 90px;
+  font-family: Bariol;
+  text-align: center;
+  background-color:white;
+  opacity:0.95;
+  line-height:90px;
+  border: solid 1px;
+  border-color: lightgrey
+}
+
+.jumbotron-search >input {
+  width: 500px;
+  height: 70px
+}
+
+.SearchText {
+  font-size: 22pt;
+}
+
+.SearchFileTypes {
+  font-size: 14pt; 
+  display : -moz-inline-box;
+  display: inline-block;
+  width: 150px;
+  display: -moz-inline-box;
+}
+
+.SearchRegion {
+  font-size: 14pt;
+  display : -moz-inline-box;
+  display: inline-block;
+  width: 150px;
+  display: -moz-inline-box;
+}
+
 .jumbotron p {
-  
   line-height: 1.4;
 }
+
 .seekContent {
   font-family: Bariol-light
 }
@@ -4389,15 +4428,35 @@ a.list-group-item.active > .badge,
 .container .jumbotron {
   border-radius: 6px;
 }
-.container seekcontent {
+.seekContent .container {
   font-family: Bariol
+}
+
+.seekContent .seekSubtitle {
+  font-family: Bariol;
+  font-size: 20pt
+}
+.seekContent .seekSubtitle2 {
+  font-family: Bariol;
+  font-size: 16pt
+}
+
+.seekContent .seekSubtitle3 {
+  font-family: Bariol;
+  font-size: 14pt
+}
+
+.seekContent ul,
+.seekContent .ul {
+   font-family: Bariol;
+  font-size: 13pt
 }
 
 .jumbotron .container {
   max-width: 100%;
   min-height: 400px
 }
-.jumbotron .container .jumbotron-text {
+.jumbotron .jumbotron-text {
   margin-top: 80px
 }
 
