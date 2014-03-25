@@ -32,64 +32,93 @@
   <body role="document">
 
     <!-- Fixed navbar -->
-    <div class="seekContent">
-	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-		<div class="navbar-container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse"
-					data-target="#seek-navbar-collapse">
-					<span class="sr-only">Toggle navigation</span> <span
-						class="icon-bar"></span> <span class="icon-bar"></span> <span
-						class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">
-					<div class="brand-seek-icon"></div>
-					<div class="brand-seek-text">AUTODESK SEEK</div>
-				</a>
-			</div>
+    
+    
+    
+    
+    <span id="hsmh">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="navbar-container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target="#seek-navbar-collapse">
+							<span class="sr-only">Toggle navigation</span> <span
+								class="icon-bar"></span> <span class="icon-bar"></span> <span
+								class="icon-bar"></span>
+						</button>
+						<img src="dist/img/logo.jpg" />
+                </div>
+                <!-- /Brand and Collapse button -->
 
-			<div class="collapse navbar-collapse" id="seek-navbar-collapse">
-				<div class="container">
-					<ul class="nav navbar-nav">
-						<li><a href="#about">About</a></li>
-						<li><a href="#about">Categories</a></li>
-						<li><a href="#contact">Design Professional</a></li>
-						<li><a href="#contact">Manufactures</a></li>
-						<li><a href="#contact">Product Library</a></li>
-						<li><a href="#contact">Classification</a></li>
-					</ul>
+                <!-- Collapse-able menu -->
+                <div class="collapse navbar-collapse" id="inspiration-navbar-collapse">
 
-					<!--/.nav-collapse -->
+                    <!-- Navigation -->
+                    <ul class="nav navbar-nav" id="nav-left">
+                       <li><a href="#about">About</a></li>
+								<li><a href="#about">Categories</a></li>
+								<li><a href="#contact">Design Professional</a></li>
+								<li><a href="#contact">Manufactures</a></li>
+								<li><a href="#contact">Product Library</a></li>
+								<li><a href="#contact">Classification</a></li>
+                    </ul>
 
-					<ul class="nav navbar-nav navbar-right">
-						<li class="dropdown"><a href="#" class="dropdown-toggle"
-							data-toggle="dropdown">
+                    <!-- Right side user actions -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 
-								<div class="divider"></div> <!-- This is a trick to make the image centered, fit and not stretched. Background images are easy to manipulate in that way. -->
-								<div class="user-image">
-									<!-- TODO: This should be replaced with the user image -->
-									<div class="img-fitter-wrapper"
-										style="background-image: url(../images/user-image-2.jpg);">
+                                <div class="divider"></div>
 
-										<!-- We still need the original image, in order to have alt text and the right click functionality (open image in new tab, etc..) -->
-										<!--<img alt="My Name" src="../images/user-image-2.jpg">-->
-									</div>
-								</div> <!-- If you use AngularJS, then we can supply you with our img-fitter directive and you can replace the above snippet with the following: -->
-								<!-- <img-fitter class="user-image" src="STATIC_URL + 'images/user-image.png'" alt="'My Name'" class="user-img" ng-src=""></img-fitter> -->
+                                <!-- This is a trick to make the image centered, fit and not stretched. Background images are easy to manipulate in that way. -->
+                                <div class="user-image"> 
+                                    <!-- TODO: This should be replaced with the user image -->
+                                    <div class="img-fitter-wrapper" style="background-image: url(../images/user-image-2.jpg);">
 
-								<span class="user-name">My Name</span>
-						</a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Settings</a></li>
-								<li><a href="#">Log Out</a></li>
-							</ul></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+                                        <!-- We still need the original image, in order to have alt text and the right click functionality (open image in new tab, etc..) -->
+                                       
+                                    </div>
+                                </div>
+
+                                <!-- If you use AngularJS, then we can supply you with our img-fitter directive and you can replace the above snippet with the following: -->
+                                <!-- <img-fitter class="user-image" src="STATIC_URL + 'images/user-image.png'" alt="'My Name'" class="user-img" ng-src=""></img-fitter> -->
+
+                                <span class="user-name">Sign In</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Settings</a></li>
+                                <li><a href="#">Log Out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /Collapse-able menu -->
+            </div>
+        </nav>
+
+        <!-- Push the content of the page down by the header's size. -->
+        
+    </span>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 	
-	</div>
+	
+	
 
 	<!-- Main jumbotron for a primary marketing message or call to action -->
 
@@ -98,15 +127,15 @@
 			<div class="jumbotron-text">
 				<h2>
 					Find, preview and download<br> DWG files & BIM models within<br>
-					your design tools!
+					your design tools !
 				</h2>
 			</div>
 			<div class="jumbotron-search">
-				<span class="SearchText">Search</span> 
+				<span class="SearchText"><img src="dist/img/searchicon.png"/> Search</span> 
 				<input
 					type="text" placeholder="For over 65,000 BIM Models" id="username"
 					style="border: 1px; border-bottom-style: none; border-top-style: none; border-left-style: none; border-right-style: none;" />
-				 <span class="SearchFileTypes">ALL FILE TYPES</span><span class="SearchRegion">REGION</span>
+				 <span class="SearchFileTypes">ALL FILE TYPES <img src="dist/img/arrow.png"/></span><span class="SearchRegion">REGION <img src="dist/img/arrow.png"/></span>
 				<button type="button" class="btn btn-warning"><span style="font-size:15pt;font-family:Bariol-light">SEEK</span></button>
 			</div>
 		</div>
@@ -114,24 +143,27 @@
 
 
 	<div class="seekContent">
-		<div class="container">
+		<div class="container" style="margin-top:50px">
 			<!-- Example row of columns -->
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-5" style="background:url('dist/img/profback.png') top right;background-repeat:no-repeat;">
 					<div class="seekSubtitle">
-						<p>PROFESSIONALS<br><hr></p>
-						
+						<p>
+							PROFESSIONALS<br>
+						</p>
+						<div
+							style="border: solid 1px; width: 220px; border-bottom-style: none; border-left-style: none; border-right-style: none; height: 20px;"></div>
 					</div>
 					<div class="seekSubtitle2">
 						<p>Browse BIM Models</p>
 					</div>
 
 					<ul>
-						<li>For High Quality BIM (Building Information Modeling)<br>
+						<li style="margin-top:15px">Find High Quality BIM (Building Information Modeling)<br>
 							Models, 2D drawing and product specifications ready<br> for
 							your active design session.
 						</li>
-						<li>Access Seek&reg; directly from<br> Autodesk Revit&reg;,
+						<li style="margin-top:15px">Access Seek&reg; directly from<br> Autodesk Revit&reg;,
 							AutoCAD&reg; and<br> Autodesk Design Review&reg;.
 						</li>
 					</ul>
@@ -140,18 +172,20 @@
 						<img src="dist/img/browseButton.jpg"/>
 					</p>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-1"></div>
+				<div class="col-md-6" style="background:url('dist/img/manuback.png') top right;background-repeat:no-repeat;">
 					<div class="seekSubtitle">
-						<p>MANUFACTURES<br><hr></p>
+						<p>MANUFACTURES<br></p>
+						<div style="border:solid 1px;width:220px;border-bottom-style:none;border-left-style: none; border-right-style: none;height:20px;"></div>
 					</div>
 					<div class="seekSubtitle2">
 						<p>Get your products into Seek&reg;</p>
 					</div>
 					<ul>
-						<li>Upload your products to Seek's powerful<br> product
+						<li style="margin-top:15px">Upload your products to Seek's powerful<br> product
 							catalog.
 						</li>
-						<li>Become visible to every architect<br> and design
+						<li style="margin-top:15px">Become visible to every architect<br> and design
 							professional with Seek's<br> built-in search barinside
 							Autodesk<br> Revit&reg; and AutoCAD&reg;.
 						</li>
@@ -160,9 +194,9 @@
 						<img src="dist/img/uploadButton.jpg" />
 					</p>
 				</div>
+				
 			</div>
 			<hr>
-
 		</div>
 	</div>
 
@@ -170,18 +204,24 @@
 		<div class="container">
 			<!-- Example row of columns -->
 			<div class="row">
-				<div class="col-md-6">
-					<div class="seekSubtitle3">QUICK LINKS</div>
+				
+				<div class="col-md-6" >
+					<div class="seekSubtitle3" style="position:relative">QUICK LINKS</div>
+					<div style="position:absolute;left:-20px;top:-10px"><img src="dist/img/quicklinks.png"> </div>
+					<div style="margin-top:20px;border:solid 1px;width:100px;border-bottom-style:none;border-left-style: none; border-right-style: none;height:20px;"></div>
 					<p>Doors [401] Windows [652] Curtain-Walls [381] Louvers [434]</p>
 				</div>
+				
 				<div class="col-md-3">
-					<div class="seekSubtitle3">FOR DESIGN <br>PROFESSIONALS</div>
-					
+					<div class="seekSubtitle3" style="position:relative">FOR DESIGN <br>PROFESSIONALS</div>
+					<div style="position:absolute;left:-30px;top:-10px"><img src="dist/img/forPro.png"></div>
+					<div style="margin-top:20px;border:solid 1px;width:130px;border-bottom-style:none;border-left-style: none; border-right-style: none;height:20px;"></div>
 				</div>
 
 				<div class="col-md-3">
-					<div class="seekSubtitle3">FOR MANUFACTURES</div>
-					
+					<div class="seekSubtitle3" style="position:relative">FOR MANUFACTURES</div>
+					<div style="position:absolute;left:-40px;top:-10px"><img src="dist/img/forManu.png"></div>
+					<div style="margin-top:20px;border:solid 1px;width:160px;border-bottom-style:none;border-left-style: none; border-right-style: none;height:20px;"></div>
 				</div>
 			</div>
 			<hr>
@@ -193,13 +233,15 @@
 			<!-- Example row of columns -->
 			<div class="row">
 				<div class="col-md-6">
-					<div class="seekSubtitle2">New Content</div>
+					<div class="seekSubtitle3">NEW CONTENT</div>
+					<div style="margin-top:20px;border:solid 1px;width:110px;border-bottom-style:none;border-left-style: none; border-right-style: none;height:20px;"></div>
 					<ul>
 						<li>new Contents</li>
 					</ul>
 				</div>
 				<div class="col-md-6">
-					<div class="seekSubtitle2">Featured Ads</div>
+					<div class="seekSubtitle3">FEATURED ADS</div>
+					<div style="margin-top:20px;border:solid 1px;width:120px;border-bottom-style:none;border-left-style: none; border-right-style: none;height:20px;"></div>
 					<ul>
 						<li>Hello, welcome to use Autodesk Seek&reg;. This is an awesome
 							tool. And This is our second chance to change a page.</li>

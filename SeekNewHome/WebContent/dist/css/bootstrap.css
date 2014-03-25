@@ -3919,7 +3919,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: white;
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
@@ -3933,13 +3933,24 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-text {
   color: #777777;
 }
+
 .navbar-default .navbar-nav > li > a {
-  color: #777777;
+  font-size:12pt;
+  width: 180px;
+  text-align:center;
+  color: #888888;
+  border: solid 1px;
+  border-color: #f2f2f2;
+  border-bottom-style: none; 
+  border-top-style: none; 
+  border-right-style: none; 
+  font-family: Bariol
 }
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333333;
-  background-color: transparent;
+  color: white;
+  background-color: #f89b1f;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -3967,6 +3978,17 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-form {
   border-color: #e7e7e7;
 }
+
+.navbar-container {
+  background-color: white
+}
+
+.navbar-header {
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 60px;
+}
+
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
@@ -4355,25 +4377,17 @@ a.list-group-item.active > .badge,
   margin-left: 3px;
 }
 .jumbotron {
-  padding: 30px;
-  margin-bottom: 30px;
   margin-top: 50px;
   font-size: 21px;
   font-weight: 200;
-  line-height: 2.1428571435;
+  line-height: 1;
   color: inherit;
   background-image: url(../img/banner.jpg)
 }
-.jumbotron h1,
-.jumbotron .h1 {
-  line-height: 1;
-  color: inherit;
- 
-  font-family: Bariol-light
-}
+
 .jumbotron h2,
 .jumbotron .h2 {
-  line-height: 1;
+  line-height: 1.2;
   color: inherit;
   margin-left:30px;
   font-size: 32pt;
@@ -4381,7 +4395,7 @@ a.list-group-item.active > .badge,
 }
 
 .jumbotron .jumbotron-search {
-  margin-top:100px;
+  margin-top:80px;
   height: 90px;
   font-family: Bariol;
   text-align: center;
@@ -4406,7 +4420,6 @@ a.list-group-item.active > .badge,
   display : -moz-inline-box;
   display: inline-block;
   width: 150px;
-  display: -moz-inline-box;
 }
 
 .SearchRegion {
@@ -4443,7 +4456,7 @@ a.list-group-item.active > .badge,
 
 .seekContent .seekSubtitle3 {
   font-family: Bariol;
-  font-size: 14pt
+  font-size: 12pt
 }
 
 .seekContent ul,
