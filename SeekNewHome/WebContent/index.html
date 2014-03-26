@@ -12,9 +12,9 @@
     <title>Autodesk Seek</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <link href="./dist/css/bootstrap.css" rel="stylesheet">
     <!-- Bootstrap theme -->
-    <link href="dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="./dist/css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <!--<link href="theme.css" rel="stylesheet"> -->
@@ -47,12 +47,12 @@
 								class="icon-bar"></span> <span class="icon-bar"></span> <span
 								class="icon-bar"></span>
 						</button>
-						<img src="dist/img/logo.jpg" />
+						<img src="./dist/img/logo.jpg" />
                 </div>
                 <!-- /Brand and Collapse button -->
 
                 <!-- Collapse-able menu -->
-                <div class="collapse navbar-collapse" id="inspiration-navbar-collapse">
+                <div class="collapse navbar-collapse" id="seek-navbar-collapse">
 
                     <!-- Navigation -->
                     <ul class="nav navbar-nav" id="nav-left">
@@ -65,7 +65,7 @@
                     </ul>
 
                     <!-- Right side user actions -->
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right" style="width:100px">
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 
@@ -135,7 +135,34 @@
 				<input
 					type="text" placeholder="For over 65,000 BIM Models" id="username"
 					style="border: 1px; border-bottom-style: none; border-top-style: none; border-left-style: none; border-right-style: none;" />
-				 <span class="SearchFileTypes">ALL FILE TYPES <img src="dist/img/arrow.png"/></span><span class="SearchRegion">REGION <img src="dist/img/arrow.png"/></span>
+
+				<div class="btn-group">
+					<a href="#" class="btn dropdown-toggle" data-toggle="dropdown" style="color:#333333;font-size:14pt">ALL
+						FILE TYPES <img src="./dist/img/arrow.png" />
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Revit</a></li>
+						<li><a href="#">All AutoCAD</a></li>
+						<li><a href="#">--AutoCAD(2D)</a></li>
+						<li><a href="#">--AutoCAD(3D)</a></li>
+						<li><a href="#">3ds Max / Maya</a></li>
+						<li><a href="#">SketchUp</a></li>
+						<li><a href="#">Other CAD Applications</a></li>
+						<li><a href="#">Specs & Documents</a></li>
+						<li><a href="#">Adsklib</a></li>
+					</ul>
+				</div>
+
+				<div class="btn-group">
+					<a href="#" class="btn dropdown-toggle" data-toggle="dropdown" style="color:#333333;font-size:14pt">
+						REGION <img src="./dist/img/arrow.png" />
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Americas</a></li>
+						<li><a href="#">Europe</a></li>
+						<li><a href="#">Oceania</a></li>
+					</ul>
+				</div>
 				<button type="button" class="btn btn-warning"><span style="font-size:15pt;font-family:Bariol-light">SEEK</span></button>
 			</div>
 		</div>
@@ -146,7 +173,7 @@
 		<div class="container" style="margin-top:50px">
 			<!-- Example row of columns -->
 			<div class="row">
-				<div class="col-md-5" style="background:url('dist/img/profback.png') top right;background-repeat:no-repeat;">
+				<div class="col-md-5" style="background:url('./dist/img/profback.png') top right;background-repeat:no-repeat;">
 					<div class="seekSubtitle">
 						<p>
 							PROFESSIONALS<br>
